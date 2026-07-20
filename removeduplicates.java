@@ -1,3 +1,5 @@
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 class removeduplicates{
@@ -9,6 +11,16 @@ class removeduplicates{
             nums[i]=sc.nextInt();
             
         }
+
+        LinkedHashSet<Integer> sets = new LinkedHashSet<>();
+        for(int ele : nums){
+            sets.add(ele);
+        }
+        int i=0;
+        for(int num: sets){
+            nums[i++] = num;
+        }
+System.out.println(sets.size());
 
     }
 }
