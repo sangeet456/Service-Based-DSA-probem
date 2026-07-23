@@ -19,5 +19,6 @@ return maxwater;
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
+        System.out.println("container with most water");
    System.out.println(maxArea(arr)); }
 }
