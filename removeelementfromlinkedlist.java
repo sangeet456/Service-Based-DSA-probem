@@ -55,7 +55,7 @@ return head;
             Node newNode = new Node(value);
             if (head == null) {
                 head = newNode;
-                tail = newNode;
+                tail = newNode;ssa
             } else {
                 tail.next = newNode;
                 tail = newNode;
