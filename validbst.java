@@ -6,7 +6,7 @@ public class validbst {
 
     public boolean isValidBST(TreeNode root) {
 
-       
+       //inorder traversal
         if(root == null) return true;
         if(! isValidBST(root.left)) return false;
        if(prev != null && prev.val >= root.val ) return false;
